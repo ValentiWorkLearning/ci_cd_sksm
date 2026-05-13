@@ -6,7 +6,9 @@ add_library(factorial factorial.cpp)
 
 # Find gtest
 find_package(GTest REQUIRED)
-include_directories( ${GTEST_INCLUDE_DIRS} ) enable_testing()
+include_directories( ${GTEST_INCLUDE_DIRS} )
+
+enable_testing()
 
 # Find POSIX threads for UNIX find_package(Threads REQUIRED)
 
