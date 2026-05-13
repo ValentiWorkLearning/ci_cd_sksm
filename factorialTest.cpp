@@ -1,6 +1,6 @@
 #include "factorial.hpp"
 #include "gtest/gtest.h"
-#include <exception>
+#include <stdexcept>
 
 TEST(factorialTest, HandlesZeroInput) { EXPECT_EQ(factorial(0), 1);
 }
