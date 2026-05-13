@@ -1,5 +1,5 @@
 #include "factorial.hpp"
-#include <exception>
+#include <stdexcept>
 
 int factorial(int n)
 {
