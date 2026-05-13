@@ -10,7 +10,9 @@ include_directories( ${GTEST_INCLUDE_DIRS} )
 
 enable_testing()
 
-# Find POSIX threads for UNIX find_package(Threads REQUIRED)
+# Find POSIX threads for UNIX
+
+find_package(Threads REQUIRED)
 
 # Build test
 add_executable(factorialTest factorialTest.cpp)
